@@ -1,0 +1,248 @@
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+
+html {
+  background: url(http://static.tumblr.com/eab424c90c1a13d63c2c00e5470cf2fa/dc5jxmq/vuFmpal8b/tumblr_static_color_ombre_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html *
+{
+   font-family: 'Amatic SC', cursive !important;
+   font-weight: 900;
+   font-stretch: expanded; ;
+
+}
+
+#sidebar {
+  position: fixed;
+  box-shadow: 10px 10px 5px #8888;
+  padding: 10px;
+  width: 220px;
+  height: 200%;
+  display: none;
+  background-color: white;
+  float: left;
+  border-right: 1px solid #ebebeb;
+}
+
+#wrapper {
+  text-align: left;
+  background: url(https://i.imgur.com/zU88Kuk.gif) no-repeat center;
+  background-color: #5C96BF;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  align: center;
+  margin: 30px auto 0;
+  color: white;
+}
+
+.site-title{
+  padding-top: 90px;
+  text-align: center;
+  color: White;
+  font-size: 56px;
+
+
+}
+.site-description{
+  text-align: center;
+  color: White;
+
+}
+
+.entry-title {
+  text-align: center;
+  padding-top: 300px;
+  font-size: 52px;
+}
+
+.entry-content {
+  padding-top: -50px;
+  font-size: 40px;
+  font-family: serif;
+}
+
+.widget-title{
+  text-align: center;
+}
+
+.navy {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 2px 2px 2px black;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    top:0
+}
+
+#nav {
+    float: left;
+    position: fixed;
+
+}
+
+#nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #111;
+}
+
+
+/* #style {
+  width: 898px;
+  height: 400px;
+  position: relative;
+  line-height: 15px;
+  font-size: 12px;
+  padding-bottom: 40px;
+} */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 0px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 45px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #f1f1f2;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 56px !important;
+  margin-left: 50px;
+}
+
+#main {
+  position: absolute;
+  transition: margin-left .5s;
+  padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 38px;
+  }
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  padding-left: 50px;
+  text-align: left;
+  padding-right: 50px;
+}
+
+body {
+  position: relative;
+}
+
+#About {
+  padding-top: 50px;
+  height: 1000px;
+  color: #fff;
+  background-color: #407ba5;
+}
+
+#Services {
+  padding-top: 10px;
+  height:1400px;
+  color: #fff;
+  background-color:  #326081;
+}
+
+#Clients {
+  padding-top: 70px;
+  height: 1000px;
+  color: #fff;
+  background-color: #24445c;
+}
+
+#Contact {
+  padding-top: 70px;
+  height: 1000px;
+  color: #fff;
+  background-color: #152937;
+}
+
+
+.hideme {
+  opacity: 1;
+}
+
+.com{
+  padding-left: 50px;
+  font-size: 30pt;
+}
+/*  #section42 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #009688;*/
+.img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.column {
+     width:300px;
+     float:left;
+     color: whitE;
+}
+
+#final {
+  padding-left: 80px;
+  font-size: 50px;
+}
